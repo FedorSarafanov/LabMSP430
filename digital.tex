@@ -342,37 +342,267 @@
 
 
 \section{Синтез цифровых целочисленных фильтров}
-\subsection{FIR-фильтры}
-\subsubsection{Гауссов фильтр}
-Нормированная резонансная характеристика для гауссовой кривой определяется как
-\begin{equation}
-  y(\xi)=e^{-\frac{\xi^{2}}{\alpha}},
-\end{equation}
-где  $\xi=f-f_0$ -- абсолютная расстройка от резонансной частоты, а параметр $\alpha$  определяет нормированную полосу пропускания гауссовой кривой:
-\begin{equation}
-  \alpha=\frac{\Pi^{2}}{4 \ln \sqrt{2}}
-\end{equation}
-здесь $\Pi$ -- абсолютная полоса пропускания по уровню 0.7. 
-% Выполнение задания в пакете синтеза осуществляется в следующей последовательности.
-\subsection{IIR-фильтры}
+\subsection{Полосовые фильтры}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.6\textwidth]{img/img6.png}
+  \caption{Требуемая АЧХ полосового фильтра}
+  \label{fig:}
+\end{figure}
+\subsubsection{Полосовой FIR-фильтр}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Z1_PPF/gain_FIR_2p.png}
+  \caption{АЧХ полосового FIR-фильтра второго порядка, СКО=0.137}
+  \label{fig:FIR_2p}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Z1_PPF/gain_FIR_4p.png}
+  \caption{АЧХ полосового FIR-фильтра четвёртого порядка, СКО=0.048}
+  \label{fig:FIR_4p}
+\end{figure}
+\subsubsection{Полосовой IIR-фильтр}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Z1_PPF/gain_IIR_2p.png}
+  \caption{АЧХ полосового IIR-фильтра второго порядка, СКО=0.084}
+  \label{fig:IIR_2p}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Z1_PPF/gain_IIR_4p.png}
+  \caption{АЧХ полосового IIR-фильтра четвёртого порядка, СКО=0.013}
+  \label{fig:IIR_4p}
+\end{figure}
 
-\section{Реализация IIR-рециркулятора на MSP430}
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Z1_PPF/gain_IIR_4p_1fd.png}
+  \caption{АЧХ полосового IIR-фильтра четвёртого порядка, $f_{\max}=f_d$}
+  \label{fig:}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Z1_PPF/gain_IIR_4p_2fd.png}
+  \caption{АЧХ полосового IIR-фильтра четвёртого порядка, $f_{\max}=2f_d$}
+  \label{fig:}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Z1_PPF/gain_IIR_4p_4fd.png}
+  \caption{АЧХ полосового IIR-фильтра четвёртого порядка, $f_{\max}=4f_d$}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Z1_PPF/gain_IIR_4p_R4.png}
+  \caption{АЧХ полосового IIR-фильтра четвёртого порядка, $R=4$ СКО=0.058}
+  \label{fig:}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Z1_PPF/gain_IIR_4p_R8.png}
+  \caption{АЧХ полосового IIR-фильтра четвёртого порядка, $R=8$ СКО=0.026}
+  \label{fig:}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Z1_PPF/gain_IIR_4p_R16.png}
+  \caption{АЧХ полосового IIR-фильтра четвёртого порядка, $R=16$ СКО=0.011}
+  \label{fig:}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\caption{Оптимальные  коэффициенты  полосового  рекурсивного  фильтра  четвёртого порядка}
+\vspace{0.5em}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+Номер звена & $a_0$ & $a_1$ & $a_2$ & $b_0$ & $b_1$ & $b_2$ \\ \hline
+1           & 8192    & 6165    & 4580    & -2973   & -1013   & 2725    \\ \hline
+2           & 8192    & -5313   & 4517    & -3596   & -2303   & 3892    \\ \hline
+\end{tabular}
+\end{table}
+По результатам анализа синтеза фильтров сделали вывод о том, что селективные свойства цифровых фильтров увеличиваются:
+\begin{enumerate}
+  \vspace{-0.6em}
+  \item при переходе от нерекурсивных фильтров к рекурсивным;\\[-1.8em]
+  \item с увеличением порядка;\\[-1.8em]
+  \item с увеличением разрядности.\\[-1.8em]
+\end{enumerate}
+
+Частотные характеристики фильтра являются непрерывными, периодическими функциями и наблюдается чётная симметрия АЧХ относительно частоты Найквиста.
+
+\subsection{Гауссов фильтр}
+% Нормированная резонансная характеристика для гауссовой кривой определяется как
+% \begin{equation}
+%   y(\xi)=e^{-\frac{\xi^{2}}{\alpha}},
+% \end{equation}
+% где  $\xi=f-f_0$ -- абсолютная расстройка от резонансной частоты, а параметр $\alpha$  определяет нормированную полосу пропускания гауссовой кривой:
+% \begin{equation}
+%   \alpha=\frac{\Pi^{2}}{4 \ln \sqrt{2}}
+% \end{equation}
+% здесь $\Pi$ -- абсолютная полоса пропускания по уровню 0.7. 
+\subsubsection{Гауссов FIR-фильтр}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Z1_GAUSS/gauss_FIR_2p.png}
+  \caption{АЧХ гауссова FIR-фильтра второго порядка, СКО=0.209}
+  \label{fig:}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Z1_GAUSS/gauss_FIR_4p.png}
+  \caption{АЧХ гауссова FIR-фильтра четвёртого порядка, СКО=0.093}
+  \label{fig:}
+\end{figure}
+\subsubsection{Гауссов IIR-фильтр}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Z1_GAUSS/gauss_IIR_2p.png}
+  \caption{АЧХ гауссова IIR-фильтра второго порядка, СКО=0.055}
+  \label{fig:}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Z1_GAUSS/gauss_IIR_4p.png}
+  \caption{АЧХ гауссова IIR-фильтра четвёртого порядка, СКО=0.007}
+  \label{fig:}
+\end{figure}
 
 
 
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Z1_GAUSS/gauss_IIR_4p_R4.png}
+  \caption{АЧХ гауссова IIR-фильтра четвёртого порядка, $R=4$ СКО=0.047}
+  \label{fig:}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Z1_GAUSS/gauss_IIR_4p_R8.png}
+  \caption{АЧХ гауссова IIR-фильтра четвёртого порядка, $R=8$ СКО=0.017}
+  \label{fig:}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Z1_GAUSS/gauss_IIR_4p_R16.png}
+  \caption{АЧХ гауссова IIR-фильтра четвёртого порядка, $R=16$ СКО=0.009}
+  \label{fig:}
+\end{figure}
+% \subsection{IIR-фильтры}
+
+\begin{table}[H]
+\centering
+\caption{Оптимальные  коэффициенты  гауссова  рекурсивного  фильтра  четвёртого порядка}
+\vspace{0.5em}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+Номер звена & $a_0$ & $a_1$ & $a_2$ & $b_0$ & $b_1$ & $b_2$ \\ \hline
+1           & 8192    & -2909   & 3405    & 4170    & 8675    & 3833    \\ \hline
+2           & 16384   & 5793    & 7153    & -5020   & 6826    & -2695   \\ \hline
+\end{tabular}
+\end{table}
+
+В этом задании было получено, что селективные свойства фильтра увеличиваются при переходе от нерекурсивного фильтра к рекурсивному, при увеличении порядка и разрядности. Для исследованных фильтров частотная характеристика - периодическая и непрерывная функция, симметричная относительно частоты Найквиста. 
+
+
+
+
+\newpage
+\section{Исследование цифрового тракта}
+
+С помощью встроенного в панорамный измеритель осциллографа была зафиксирована форма
+входного и выходного (с ЦАП) сигналов на частотах $f_{\max}$=500, 1000 и 2000 Гц ($f_{\min}$=10 Гц, шаг $f_s$=20 Гц):
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\textwidth]{Z4_FN4/signal_500.png}
+  \caption{$f_{\max}$=500 Гц}
+  \label{fig:}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\textwidth]{Z4_FN4/signal_1000.png}
+  \caption{$f_{\max}$=1000 Гц}
+  \label{fig:}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\textwidth]{Z4_FN4/signal_2000.png}
+  \caption{$f_{\max}$=2000 Гц}
+  \label{fig:}
+\end{figure}
+
+При приближении к частоте Найквиста форма сигнала становится более ступенчатой.
+
+\section{Синтез IIR-ФНЧ с линейной фазой}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{img/img5.png}
+  \caption{Требуемые АЧХ и ФЧХ}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Z4_FN4/gain_0.png}
+  \caption{АЧХ при синтезе без учета фазовых требований ($\beta_2=0$) СКО=0.003}
+  \label{fig:}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Z4_FN4/phase_0.png}
+  \caption{ФЧХ при синтезе без учета фазовых требований ($\beta_2=0$) СКО=15.23, max err=21.67}
+  \label{fig:}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Z4_FN4/gain_4.png}
+  \caption{АЧХ при синтезе с учетом фазовых требований ($\beta_2=4$) СКО=0.012}
+  \label{fig:}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Z4_FN4/phase_4.png}
+  \caption{ФЧХ при синтезе с учетом фазовых требований ($\beta_2=4$) НЧХ=0.017}
+  \label{fig:}
+\end{figure}
+
+Из протокола синтеза в программу расчёта отклика были введены оптимальные коэффициенты синтезированного фильтра с учетом фазовых требований и осуществлены трансляция и загрузка программы в микроконтроллер. С помощью панорамного измерителя  измерены АЧХ и ФЧХ синтезированного фильтра:
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Z4_FN4/pan_gain_4.png}
+  \caption{АЧХ с панорамного измерителя}
+  \label{fig:}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{Z4_FN4/pan_phase_4.png}
+  \caption{ФЧХ с панорамного измерителя}
+  \label{fig:}
+\end{figure}
 
 
 \addcontentsline{toc}{section}{Заключение}
 \section*{Заключение}
 
-В процессе выполнения работы были синтезированы рекурсивные и не рекурсивные модельные  ЦНП – фильтры и фильтры на микроконтроллере, оценены селективные свойства и рекомендуемый рабочий диапазон для данного микроконтроллера, который составил интервал  от 300 Гц до 4000 Гц. Также были реализованы  рекурсивный ЦНП – рециркулятор   и цифровой фильтр нижних частот.
+В процессе выполнения работы были синтезированы рекурсивные и не рекурсивные модельные  ЦНП – фильтры и фильтры на микроконтроллере, оценены селективные свойства и рекомендуемый рабочий диапазон реализованного цифрового фильтра нижних частот.
+
+Синтезирование рекурсивного фильтра проводилось с учетом и без учета фазовых требований. Если не учитывать фазовые требования, АЧХ практически совпадает с требуемой, однако появляется нелинейность ФЧХ в полосе пропускания. 
+
+При синтезе ФНЧ с учетом фазовых требований, селективность фильтра ухудшилась (СКО=2.776), а фазовые искажения существенно уменьшились.
 
 \begin{thebibliography}{}
 
-  \bibitem{met1} Вайнштейн Л.А. Электромагнитные волны. М.: Радио и связь, 1988.
-
-  \bibitem{lit3} Ландау Л.Д., Лифшиц Е.М. Теория поля. М.: Физматлит, 2003.
+  \bibitem{met1} Бугров В.Н., Морозов Н.С. Синтез и реализация цифрового целочисленного фильтра на микроконтроллере. -- Н.Новгород: ННГУ, 2017 -- 37 с.
 \end{thebibliography}
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.9.20)  10 OCT 2019 16:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.9.20)  11 OCT 2019 00:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1370,6 +1370,75 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 
 LaTeX Warning: Label `fig:figure1' multiply defined.
 
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
+
+LaTeX Warning: Label `fig:' multiply defined.
+
 )
 \openout1 = `digital.aux'.
 
@@ -1515,7 +1584,7 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [2]
-<img/img1.png, id=108, 874.26625pt x 571.13374pt>
+<img/img1.png, id=129, 874.26625pt x 571.13374pt>
 File: img/img1.png Graphic file (type png)
 <use img/img1.png>
 Package pdftex.def Info: img/img1.png  used on input line 224.
@@ -1529,7 +1598,7 @@ l.245
        <./img/img1.png>] (/usr/share/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-<img/img2.png, id=128, 734.745pt x 563.10374pt>
+<img/img2.png, id=149, 734.745pt x 563.10374pt>
 File: img/img2.png Graphic file (type png)
 <use img/img2.png>
 Package pdftex.def Info: img/img2.png  used on input line 270.
@@ -1550,7 +1619,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 295.
-<img/img3.png, id=139, 418.56375pt x 307.90031pt>
+<img/img3.png, id=160, 418.56375pt x 307.90031pt>
 File: img/img3.png Graphic file (type png)
 <use img/img3.png>
 Package pdftex.def Info: img/img3.png  used on input line 301.
@@ -1570,7 +1639,7 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
                                                   \fi \fi 
 l.309 
        <./img/img3.png>]
-<img/img4.png, id=145, 271.0125pt x 289.08pt>
+<img/img4.png, id=166, 271.0125pt x 289.08pt>
 File: img/img4.png Graphic file (type png)
 <use img/img4.png>
 Package pdftex.def Info: img/img4.png  used on input line 317.
@@ -1597,25 +1666,386 @@ Overfull \hbox (4.4204pt too wide) in paragraph at lines 335--336
 -ÔÎÂÍ-Ò‡, Ú‡-ÍËı Í‡Í ¿÷œ,
  []
 
-[10] [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 378.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 378.
- (./digital.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 378.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 378.
+[10]
+<img/img6.png, id=180, 129.1224pt x 86.2422pt>
+File: img/img6.png Graphic file (type png)
+<use img/img6.png>
+Package pdftex.def Info: img/img6.png  used on input line 348.
+(pdftex.def)             Requested size: 290.22107pt x 193.88388pt.
+<Z1_PPF/gain_FIR_2p.png, id=181, 116.5956pt x 80.7015pt>
+File: Z1_PPF/gain_FIR_2p.png Graphic file (type png)
+<use Z1_PPF/gain_FIR_2p.png>
+Package pdftex.def Info: Z1_PPF/gain_FIR_2p.png  used on input line 355.
+(pdftex.def)             Requested size: 338.58632pt x 234.35469pt.
+<Z1_PPF/gain_FIR_4p.png, id=182, 116.5956pt x 79.9788pt>
+File: Z1_PPF/gain_FIR_4p.png Graphic file (type png)
+<use Z1_PPF/gain_FIR_4p.png>
+Package pdftex.def Info: Z1_PPF/gain_FIR_4p.png  used on input line 361.
+(pdftex.def)             Requested size: 338.58632pt x 232.25598pt.
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.5}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.365 \subsubsection
+                    {–ü–æ–ª–æ—Å–æ–≤–æ–π IIR-—Ñ–∏–ª—å—Ç—Ä}pdfTeX warning (ext4):
+ destination with the same identifier (name{figure.6}) has been already used, d
+uplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.365 \subsubsection
+                    {–ü–æ–ª–æ—Å–æ–≤–æ–π IIR-—Ñ–∏–ª—å—Ç—Ä} <./img/img6.png> <./Z
+1_PPF/gain_FIR_2p.png>]
+<Z1_PPF/gain_IIR_2p.png, id=189, 116.5956pt x 79.497pt>
+File: Z1_PPF/gain_IIR_2p.png Graphic file (type png)
+<use Z1_PPF/gain_IIR_2p.png>
+Package pdftex.def Info: Z1_PPF/gain_IIR_2p.png  used on input line 368.
+(pdftex.def)             Requested size: 338.58632pt x 230.85681pt.
+<Z1_PPF/gain_IIR_4p.png, id=190, 116.5956pt x 80.7015pt>
+File: Z1_PPF/gain_IIR_4p.png Graphic file (type png)
+<use Z1_PPF/gain_IIR_4p.png>
+Package pdftex.def Info: Z1_PPF/gain_IIR_4p.png  used on input line 374.
+(pdftex.def)             Requested size: 338.58632pt x 234.35469pt.
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.7}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.378 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.378 
+       <./Z1_PPF/gain_FIR_4p.png> <./Z1_PPF/gain_IIR_2p.png>]
+<Z1_PPF/gain_IIR_4p_1fd.png, id=198, 116.5956pt x 79.7379pt>
+File: Z1_PPF/gain_IIR_4p_1fd.png Graphic file (type png)
+<use Z1_PPF/gain_IIR_4p_1fd.png>
+Package pdftex.def Info: Z1_PPF/gain_IIR_4p_1fd.png  used on input line 383.
+(pdftex.def)             Requested size: 338.58632pt x 231.5564pt.
+<Z1_PPF/gain_IIR_4p_2fd.png, id=199, 116.5956pt x 79.9788pt>
+File: Z1_PPF/gain_IIR_4p_2fd.png Graphic file (type png)
+<use Z1_PPF/gain_IIR_4p_2fd.png>
+Package pdftex.def Info: Z1_PPF/gain_IIR_4p_2fd.png  used on input line 389.
+(pdftex.def)             Requested size: 338.58632pt x 232.25598pt.
+<Z1_PPF/gain_IIR_4p_4fd.png, id=200, 116.5956pt x 80.2197pt>
+File: Z1_PPF/gain_IIR_4p_4fd.png Graphic file (type png)
+<use Z1_PPF/gain_IIR_4p_4fd.png>
+Package pdftex.def Info: Z1_PPF/gain_IIR_4p_4fd.png  used on input line 395.
+(pdftex.def)             Requested size: 338.58632pt x 232.95552pt.
+ [13pdfTeX warning (ext4): destination with the same identifier (name{figure.9}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.398 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.398 \end{figure}
+                   <./Z1_PPF/gain_IIR_4p.png> <./Z1_PPF/gain_IIR_4p_1fd.png>]
+<Z1_PPF/gain_IIR_4p_R4.png, id=207, 116.5956pt x 80.2197pt>
+File: Z1_PPF/gain_IIR_4p_R4.png Graphic file (type png)
+<use Z1_PPF/gain_IIR_4p_R4.png>
+Package pdftex.def Info: Z1_PPF/gain_IIR_4p_R4.png  used on input line 402.
+(pdftex.def)             Requested size: 338.58632pt x 232.95552pt.
+<Z1_PPF/gain_IIR_4p_R8.png, id=208, 116.5956pt x 80.4606pt>
+File: Z1_PPF/gain_IIR_4p_R8.png Graphic file (type png)
+<use Z1_PPF/gain_IIR_4p_R8.png>
+Package pdftex.def Info: Z1_PPF/gain_IIR_4p_R8.png  used on input line 408.
+(pdftex.def)             Requested size: 338.58632pt x 233.6551pt.
+
+[14pdfTeX warning (ext4): destination with the same identifier (name{figure.11}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.411 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.411 \end{figure}
+                   <./Z1_PPF/gain_IIR_4p_2fd.png> <./Z1_PPF/gain_IIR_4p_4fd.png
+>]
+<Z1_PPF/gain_IIR_4p_R16.png, id=215, 116.5956pt x 80.9424pt>
+File: Z1_PPF/gain_IIR_4p_R16.png Graphic file (type png)
+<use Z1_PPF/gain_IIR_4p_R16.png>
+Package pdftex.def Info: Z1_PPF/gain_IIR_4p_R16.png  used on input line 414.
+(pdftex.def)             Requested size: 338.58632pt x 235.05423pt.
+
+Underfull \hbox (badness 1867) in paragraph at lines 415--415
+[]\T2A/cmr/m/n/14.4 –ËÒ. 15. []¿◊’ ÔÓ-ÎÓ-ÒÓ-‚Ó-„Ó IIR-ÙËÎ¸Ú‡ ˜ÂÚ-‚º-ÚÓ-„Ó ÔÓ-
+ˇ‰-Í‡, $\OML/cmm/m/it/14.4 R \OT1/cmr/m/n/14.4 = 16$
+ []
+
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.13}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.418 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.418 
+       <./Z1_PPF/gain_IIR_4p_R4.png> <./Z1_PPF/gain_IIR_4p_R8.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 433--434
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 435--436
+
+ []
+
+<Z1_GAUSS/gauss_FIR_2p.png, id=222, 116.5956pt x 80.2197pt>
+File: Z1_GAUSS/gauss_FIR_2p.png Graphic file (type png)
+<use Z1_GAUSS/gauss_FIR_2p.png>
+Package pdftex.def Info: Z1_GAUSS/gauss_FIR_2p.png  used on input line 453.
+(pdftex.def)             Requested size: 338.58632pt x 232.95552pt.
+<Z1_GAUSS/gauss_FIR_4p.png, id=224, 116.5956pt x 80.9424pt>
+File: Z1_GAUSS/gauss_FIR_4p.png Graphic file (type png)
+<use Z1_GAUSS/gauss_FIR_4p.png>
+Package pdftex.def Info: Z1_GAUSS/gauss_FIR_4p.png  used on input line 459.
+(pdftex.def)             Requested size: 338.58632pt x 235.05423pt.
+[16pdfTeX warning (ext4): destination with the same identifier (name{figure.15}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.462 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{table.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.462 \end{figure}
+                   <./Z1_PPF/gain_IIR_4p_R16.png>]
+<Z1_GAUSS/gauss_IIR_2p.png, id=234, 116.5956pt x 80.7015pt>
+File: Z1_GAUSS/gauss_IIR_2p.png Graphic file (type png)
+<use Z1_GAUSS/gauss_IIR_2p.png>
+Package pdftex.def Info: Z1_GAUSS/gauss_IIR_2p.png  used on input line 466.
+(pdftex.def)             Requested size: 338.58632pt x 234.35469pt.
+<Z1_GAUSS/gauss_IIR_4p.png, id=235, 116.5956pt x 80.2197pt>
+File: Z1_GAUSS/gauss_IIR_4p.png Graphic file (type png)
+<use Z1_GAUSS/gauss_IIR_4p.png>
+Package pdftex.def Info: Z1_GAUSS/gauss_IIR_4p.png  used on input line 472.
+(pdftex.def)             Requested size: 338.58632pt x 232.95552pt.
+ [17pdfTeX warning (ext4): destination with the same identifier (name{figure.16
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.475 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.17}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.475 \end{figure}
+                   <./Z1_GAUSS/gauss_FIR_2p.png> <./Z1_GAUSS/gauss_FIR_4p.png>]
+<Z1_GAUSS/gauss_IIR_4p_R4.png, id=243, 116.5956pt x 79.9788pt>
+File: Z1_GAUSS/gauss_IIR_4p_R4.png Graphic file (type png)
+<use Z1_GAUSS/gauss_IIR_4p_R4.png>
+Package pdftex.def Info: Z1_GAUSS/gauss_IIR_4p_R4.png  used on input line 482.
+(pdftex.def)             Requested size: 338.58632pt x 232.25598pt.
+<Z1_GAUSS/gauss_IIR_4p_R8.png, id=244, 116.5956pt x 80.2197pt>
+File: Z1_GAUSS/gauss_IIR_4p_R8.png Graphic file (type png)
+<use Z1_GAUSS/gauss_IIR_4p_R8.png>
+Package pdftex.def Info: Z1_GAUSS/gauss_IIR_4p_R8.png  used on input line 488.
+(pdftex.def)             Requested size: 338.58632pt x 232.95552pt.
+[18pdfTeX warning (ext4): destination with the same identifier (name{figure.18}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.491 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.19}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.491 \end{figure}
+                   <./Z1_GAUSS/gauss_IIR_2p.png> <./Z1_GAUSS/gauss_IIR_4p.png>]
+<Z1_GAUSS/gauss_IIR_4p_R16.png, id=252, 116.5956pt x 80.7015pt>
+File: Z1_GAUSS/gauss_IIR_4p_R16.png Graphic file (type png)
+<use Z1_GAUSS/gauss_IIR_4p_R16.png>
+Package pdftex.def Info: Z1_GAUSS/gauss_IIR_4p_R16.png  used on input line 494.
+
+(pdftex.def)             Requested size: 338.58632pt x 234.35469pt.
+[19pdfTeX warning (ext4): destination with the same identifier (name{figure.20}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.499 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+21}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.499 
+       <./Z1_GAUSS/gauss_IIR_4p_R4.png> <./Z1_GAUSS/gauss_IIR_4p_R8.png>]
+[20pdfTeX warning (ext4): destination with the same identifier (name{figure.22}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.517 \newpage
+              pdfTeX warning (ext4): destination with the same identifier (name
+{table.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.517 \newpage
+               <./Z1_GAUSS/gauss_IIR_4p_R16.png>]
+<Z4_FN4/signal_500.png, id=265, 85.7604pt x 79.9788pt>
+File: Z4_FN4/signal_500.png Graphic file (type png)
+<use Z4_FN4/signal_500.png>
+Package pdftex.def Info: Z4_FN4/signal_500.png  used on input line 525.
+(pdftex.def)             Requested size: 241.84843pt x 225.57076pt.
+<Z4_FN4/signal_1000.png, id=266, 85.7604pt x 79.9788pt>
+File: Z4_FN4/signal_1000.png Graphic file (type png)
+<use Z4_FN4/signal_1000.png>
+Package pdftex.def Info: Z4_FN4/signal_1000.png  used on input line 531.
+(pdftex.def)             Requested size: 241.84843pt x 225.57076pt.
+<Z4_FN4/signal_2000.png, id=267, 85.7604pt x 79.9788pt>
+File: Z4_FN4/signal_2000.png Graphic file (type png)
+<use Z4_FN4/signal_2000.png>
+Package pdftex.def Info: Z4_FN4/signal_2000.png  used on input line 537.
+(pdftex.def)             Requested size: 241.84843pt x 225.57076pt.
+ [21pdfTeX warning (ext4): destination with the same identifier (name{figure.23
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.541 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+24}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.541 
+       <./Z4_FN4/signal_500.png> <./Z4_FN4/signal_1000.png>]
+<img/img5.png, id=274, 209.3421pt x 72.5109pt>
+File: img/img5.png Graphic file (type png)
+<use img/img5.png>
+Package pdftex.def Info: img/img5.png  used on input line 547.
+(pdftex.def)             Requested size: 483.69687pt x 167.56369pt.
+<Z4_FN4/gain_0.png, id=275, 116.5956pt x 79.9788pt>
+File: Z4_FN4/gain_0.png Graphic file (type png)
+<use Z4_FN4/gain_0.png>
+Package pdftex.def Info: Z4_FN4/gain_0.png  used on input line 554.
+(pdftex.def)             Requested size: 338.58632pt x 232.25598pt.
+<Z4_FN4/phase_0.png, id=276, 116.5956pt x 80.2197pt>
+File: Z4_FN4/phase_0.png Graphic file (type png)
+<use Z4_FN4/phase_0.png>
+Package pdftex.def Info: Z4_FN4/phase_0.png  used on input line 560.
+(pdftex.def)             Requested size: 338.58632pt x 232.95552pt.
+ [22pdfTeX warning (ext4): destination with the same identifier (name{figure.25
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.563 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.26}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.563 \end{figure}
+                   <./Z4_FN4/signal_2000.png> <./img/img5.png>]
+<Z4_FN4/gain_4.png, id=283, 116.5956pt x 80.2197pt>
+File: Z4_FN4/gain_4.png Graphic file (type png)
+<use Z4_FN4/gain_4.png>
+Package pdftex.def Info: Z4_FN4/gain_4.png  used on input line 566.
+(pdftex.def)             Requested size: 338.58632pt x 232.95552pt.
+<Z4_FN4/phase_4.png, id=284, 116.5956pt x 79.9788pt>
+File: Z4_FN4/phase_4.png Graphic file (type png)
+<use Z4_FN4/phase_4.png>
+Package pdftex.def Info: Z4_FN4/phase_4.png  used on input line 572.
+(pdftex.def)             Requested size: 338.58632pt x 232.25598pt.
+ [23pdfTeX warning (ext4): destination with the same identifier (name{figure.27
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.575 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.28}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.575 \end{figure}
+                   <./Z4_FN4/gain_0.png> <./Z4_FN4/phase_0.png>]
+<Z4_FN4/pan_gain_4.png, id=291, 139.4811pt x 106.2369pt>
+File: Z4_FN4/pan_gain_4.png Graphic file (type png)
+<use Z4_FN4/pan_gain_4.png>
+Package pdftex.def Info: Z4_FN4/pan_gain_4.png  used on input line 581.
+(pdftex.def)             Requested size: 338.58632pt x 257.90779pt.
+ [24pdfTeX warning (ext4): destination with the same identifier (name{figure.29
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.585 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+30}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.585 
+       <./Z4_FN4/gain_4.png> <./Z4_FN4/phase_4.png>]
+<Z4_FN4/pan_phase_4.png, id=299, 137.7948pt x 106.2369pt>
+File: Z4_FN4/pan_phase_4.png Graphic file (type png)
+<use Z4_FN4/pan_phase_4.png>
+Package pdftex.def Info: Z4_FN4/pan_phase_4.png  used on input line 588.
+(pdftex.def)             Requested size: 338.58632pt x 261.06721pt.
+ [25pdfTeX warning (ext4): destination with the same identifier (name{figure.31
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.598 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+32}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.598 
+       <./Z4_FN4/pan_gain_4.png> <./Z4_FN4/pan_phase_4.png>] [26]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 608.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 608.
+
+(./digital.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 608.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 608.
 Package rerunfilecheck Info: File `digital.out' has not changed.
-(rerunfilecheck)             Checksum: ECAD5910AFDDF784A176B598AD151370;3057.
+(rerunfilecheck)             Checksum: BEEF4C38A65EA8DDBA38C72E1FBEE91C;4043.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 378.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 608.
  ) 
 Here is how much of TeX's memory you used:
- 47982 strings out of 492623
- 1014043 string characters out of 6135669
- 1162285 words of memory out of 5000000
- 51112 multiletter control sequences out of 15000+600000
+ 48187 strings out of 492623
+ 1018136 string characters out of 6135669
+ 1162801 words of memory out of 5000000
+ 51235 multiletter control sequences out of 15000+600000
  548141 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,22n,136p,1691b,704s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1623,22 +2053,20 @@ Here is how much of TeX's memory you used:
 texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></u
-sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb
-></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/te
-xmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf-dist/fonts/
-type1/public/cm-super/sfbx2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm
--super/sfcc1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700
-.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist/fo
-nts/type1/public/cm-super/sfrm1728.pfb>
-Output written on digital.pdf (12 pages, 348963 bytes).
+cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-su
+per/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pf
+b></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/t
+exmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf-dist/fonts
+/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/c
+m-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm144
+0.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on digital.pdf (27 pages, 488738 bytes).
 PDF statistics:
- 239 PDF objects out of 1000 (max. 8388607)
- 196 compressed objects within 2 object streams
- 38 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 386 PDF objects out of 1000 (max. 8388607)
+ 300 compressed objects within 3 object streams
+ 89 named destinations out of 1000 (max. 500000)
+ 329 words of extra memory for PDF output out of 10000 (max. 10000000)
 
