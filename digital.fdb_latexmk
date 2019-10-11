@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1570741281 "digital.tex" "digital.pdf" "digital" 1570741303
-  "/dev/null" 1570708179 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1570775513 "digital.tex" "digital.pdf" "digital" 1570775516
+  "/dev/null" 1570773755 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1539207008 3304 6a543c07045572737981351171e0505e ""
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm" 1539207003 3312 d199be9bd555944e2403193d58a0256a ""
   "/home/osabio/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx2074.tfm" 1543341108 3316 0992aa03d0c75498a0b6fb905d9eaab6 ""
@@ -308,10 +308,10 @@
   "Z4_FN4/signal_1000.png" 1570723076 4383 30fc887af2a78340f4a77af8d9d6167f ""
   "Z4_FN4/signal_2000.png" 1570723080 4422 44662e8fcee0bcf32f2c734153a9db9d ""
   "Z4_FN4/signal_500.png" 1570723072 4649 fbc4235c3772b069aec7c8b2c05325f0 ""
-  "digital.aux" 1570741299 32113 e4daf9ccbe0c865386a712ffe44d8b9c "pdflatex"
-  "digital.out" 1570741299 4043 beef4c38a65ea8ddba38c72e1fbee91c "pdflatex"
-  "digital.tex" 1570741259 40048 b7def52c3f53aff50e67b0ea958c3242 ""
-  "digital.toc" 1570741299 6318 b0c89fbb380f7c10d9bd8b05eec1f601 "pdflatex"
+  "digital.aux" 1570775516 32113 187fe5ba1bf7087264749be6c6190665 "pdflatex"
+  "digital.out" 1570775516 4043 beef4c38a65ea8ddba38c72e1fbee91c "pdflatex"
+  "digital.tex" 1570775513 41773 ccab6af8eab829f3f2cb41a3a34beba3 ""
+  "digital.toc" 1570775516 6318 4bb7deda755b13d03fd70da1970edc08 "pdflatex"
   "img/img1.png" 1570706493 53946 6d0d2df792eb9c37c9f30d8e217b774d ""
   "img/img2.png" 1570706520 33570 d97d78ae7caea47cb5df9651f89a1a7f ""
   "img/img3.png" 1570711334 3138 669263c71b8dc595a2f0bafd36b89977 ""
@@ -319,8 +319,8 @@
   "img/img5.png" 1570738637 12795 e1f9272c3e59deecc84652501f009470 ""
   "img/img6.png" 1570739220 21553 ac68ebdb69109cb2de92a9e9ea1d613a ""
   (generated)
-  "digital.log"
   "digital.aux"
+  "digital.log"
   "digital.pdf"
   "digital.toc"
   "digital.out"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.9.20)  11 OCT 2019 00:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.9.20)  11 OCT 2019 09:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1891,160 +1891,160 @@ Package pdftex.def Info: Z1_GAUSS/gauss_IIR_4p_R16.png  used on input line 494.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.499 
+l.498 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 21}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.499 
+l.498 
        <./Z1_GAUSS/gauss_IIR_4p_R4.png> <./Z1_GAUSS/gauss_IIR_4p_R8.png>]
 [20pdfTeX warning (ext4): destination with the same identifier (name{figure.22}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.517 \newpage
+l.526 \newpage
               pdfTeX warning (ext4): destination with the same identifier (name
 {table.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.517 \newpage
+l.526 \newpage
                <./Z1_GAUSS/gauss_IIR_4p_R16.png>]
 <Z4_FN4/signal_500.png, id=265, 85.7604pt x 79.9788pt>
 File: Z4_FN4/signal_500.png Graphic file (type png)
 <use Z4_FN4/signal_500.png>
-Package pdftex.def Info: Z4_FN4/signal_500.png  used on input line 525.
+Package pdftex.def Info: Z4_FN4/signal_500.png  used on input line 534.
 (pdftex.def)             Requested size: 241.84843pt x 225.57076pt.
 <Z4_FN4/signal_1000.png, id=266, 85.7604pt x 79.9788pt>
 File: Z4_FN4/signal_1000.png Graphic file (type png)
 <use Z4_FN4/signal_1000.png>
-Package pdftex.def Info: Z4_FN4/signal_1000.png  used on input line 531.
+Package pdftex.def Info: Z4_FN4/signal_1000.png  used on input line 540.
 (pdftex.def)             Requested size: 241.84843pt x 225.57076pt.
 <Z4_FN4/signal_2000.png, id=267, 85.7604pt x 79.9788pt>
 File: Z4_FN4/signal_2000.png Graphic file (type png)
 <use Z4_FN4/signal_2000.png>
-Package pdftex.def Info: Z4_FN4/signal_2000.png  used on input line 537.
+Package pdftex.def Info: Z4_FN4/signal_2000.png  used on input line 546.
 (pdftex.def)             Requested size: 241.84843pt x 225.57076pt.
  [21pdfTeX warning (ext4): destination with the same identifier (name{figure.23
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.541 
+l.550 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 24}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.541 
+l.550 
        <./Z4_FN4/signal_500.png> <./Z4_FN4/signal_1000.png>]
 <img/img5.png, id=274, 209.3421pt x 72.5109pt>
 File: img/img5.png Graphic file (type png)
 <use img/img5.png>
-Package pdftex.def Info: img/img5.png  used on input line 547.
+Package pdftex.def Info: img/img5.png  used on input line 560.
 (pdftex.def)             Requested size: 483.69687pt x 167.56369pt.
-<Z4_FN4/gain_0.png, id=275, 116.5956pt x 79.9788pt>
-File: Z4_FN4/gain_0.png Graphic file (type png)
-<use Z4_FN4/gain_0.png>
-Package pdftex.def Info: Z4_FN4/gain_0.png  used on input line 554.
-(pdftex.def)             Requested size: 338.58632pt x 232.25598pt.
-<Z4_FN4/phase_0.png, id=276, 116.5956pt x 80.2197pt>
-File: Z4_FN4/phase_0.png Graphic file (type png)
-<use Z4_FN4/phase_0.png>
-Package pdftex.def Info: Z4_FN4/phase_0.png  used on input line 560.
-(pdftex.def)             Requested size: 338.58632pt x 232.95552pt.
  [22pdfTeX warning (ext4): destination with the same identifier (name{figure.25
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.563 \end{figure}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{figure.26}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.563 \end{figure}
-                   <./Z4_FN4/signal_2000.png> <./img/img5.png>]
-<Z4_FN4/gain_4.png, id=283, 116.5956pt x 80.2197pt>
+l.564 
+       <./Z4_FN4/signal_2000.png>]
+<Z4_FN4/gain_0.png, id=280, 116.5956pt x 79.9788pt>
+File: Z4_FN4/gain_0.png Graphic file (type png)
+<use Z4_FN4/gain_0.png>
+Package pdftex.def Info: Z4_FN4/gain_0.png  used on input line 567.
+(pdftex.def)             Requested size: 338.58632pt x 232.25598pt.
+<Z4_FN4/phase_0.png, id=281, 116.5956pt x 80.2197pt>
+File: Z4_FN4/phase_0.png Graphic file (type png)
+<use Z4_FN4/phase_0.png>
+Package pdftex.def Info: Z4_FN4/phase_0.png  used on input line 573.
+(pdftex.def)             Requested size: 338.58632pt x 232.95552pt.
+<Z4_FN4/gain_4.png, id=282, 116.5956pt x 80.2197pt>
 File: Z4_FN4/gain_4.png Graphic file (type png)
 <use Z4_FN4/gain_4.png>
-Package pdftex.def Info: Z4_FN4/gain_4.png  used on input line 566.
+Package pdftex.def Info: Z4_FN4/gain_4.png  used on input line 579.
 (pdftex.def)             Requested size: 338.58632pt x 232.95552pt.
-<Z4_FN4/phase_4.png, id=284, 116.5956pt x 79.9788pt>
+ [23pdfTeX warning (ext4): destination with the same identifier (name{figure.26
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.582 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.27}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.582 \end{figure}
+                   <./img/img5.png> <./Z4_FN4/gain_0.png>]
+<Z4_FN4/phase_4.png, id=289, 116.5956pt x 79.9788pt>
 File: Z4_FN4/phase_4.png Graphic file (type png)
 <use Z4_FN4/phase_4.png>
-Package pdftex.def Info: Z4_FN4/phase_4.png  used on input line 572.
+Package pdftex.def Info: Z4_FN4/phase_4.png  used on input line 585.
 (pdftex.def)             Requested size: 338.58632pt x 232.25598pt.
- [23pdfTeX warning (ext4): destination with the same identifier (name{figure.27
+ [24pdfTeX warning (ext4): destination with the same identifier (name{figure.28
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.575 \end{figure}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{figure.28}) has been already used, duplicate ignored
+l.589 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+29}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.575 \end{figure}
-                   <./Z4_FN4/gain_0.png> <./Z4_FN4/phase_0.png>]
-<Z4_FN4/pan_gain_4.png, id=291, 139.4811pt x 106.2369pt>
+l.589 
+       <./Z4_FN4/phase_0.png> <./Z4_FN4/gain_4.png>]
+<Z4_FN4/pan_gain_4.png, id=297, 139.4811pt x 106.2369pt>
 File: Z4_FN4/pan_gain_4.png Graphic file (type png)
 <use Z4_FN4/pan_gain_4.png>
-Package pdftex.def Info: Z4_FN4/pan_gain_4.png  used on input line 581.
+Package pdftex.def Info: Z4_FN4/pan_gain_4.png  used on input line 594.
 (pdftex.def)             Requested size: 338.58632pt x 257.90779pt.
- [24pdfTeX warning (ext4): destination with the same identifier (name{figure.29
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.585 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-30}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.585 
-       <./Z4_FN4/gain_4.png> <./Z4_FN4/phase_4.png>]
-<Z4_FN4/pan_phase_4.png, id=299, 137.7948pt x 106.2369pt>
+<Z4_FN4/pan_phase_4.png, id=298, 137.7948pt x 106.2369pt>
 File: Z4_FN4/pan_phase_4.png Graphic file (type png)
 <use Z4_FN4/pan_phase_4.png>
-Package pdftex.def Info: Z4_FN4/pan_phase_4.png  used on input line 588.
+Package pdftex.def Info: Z4_FN4/pan_phase_4.png  used on input line 601.
 (pdftex.def)             Requested size: 338.58632pt x 261.06721pt.
- [25pdfTeX warning (ext4): destination with the same identifier (name{figure.31
+ [25pdfTeX warning (ext4): destination with the same identifier (name{figure.30
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.598 
+l.605 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-32}) has been already used, duplicate ignored
+31}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.598 
-       <./Z4_FN4/pan_gain_4.png> <./Z4_FN4/pan_phase_4.png>] [26]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 608.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 608.
+l.605 
+       <./Z4_FN4/phase_4.png> <./Z4_FN4/pan_gain_4.png>] [26pdfTeX warning (ext
+4): destination with the same identifier (name{figure.32}) has been already use
+d, duplicate ignored
 
-(./digital.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 608.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 608.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.623 \end{thebibliography}
+                            <./Z4_FN4/pan_phase_4.png>] [27]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 625.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 625.
+ (./digital.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 625.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 625.
 Package rerunfilecheck Info: File `digital.out' has not changed.
 (rerunfilecheck)             Checksum: BEEF4C38A65EA8DDBA38C72E1FBEE91C;4043.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 608.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 625.
  ) 
 Here is how much of TeX's memory you used:
- 48187 strings out of 492623
- 1018136 string characters out of 6135669
- 1162801 words of memory out of 5000000
+ 48188 strings out of 492623
+ 1018143 string characters out of 6135669
+ 1162933 words of memory out of 5000000
  51235 multiletter control sequences out of 15000+600000
  548141 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2063,10 +2063,10 @@ exmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf-dist/fonts
 /type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/c
 m-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm144
 0.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on digital.pdf (27 pages, 488738 bytes).
+Output written on digital.pdf (28 pages, 493602 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
- 300 compressed objects within 3 object streams
- 89 named destinations out of 1000 (max. 500000)
+ 391 PDF objects out of 1000 (max. 8388607)
+ 303 compressed objects within 4 object streams
+ 90 named destinations out of 1000 (max. 500000)
  329 words of extra memory for PDF output out of 10000 (max. 10000000)
 
